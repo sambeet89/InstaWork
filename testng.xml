@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests">
+	 <test name="TestsForWinIE">
+		<parameter name="BrowserName" value="WinIE"></parameter>
+		<classes>
+			<class name="instaHire.Tests.SC_001" />
+		</classes>
+	</test> 
+	 <test name="TestsForWinChrome">
+		<parameter name="BrowserName" value="WinChrome"></parameter>
+		<classes>
+			<class name="instaHire.Tests.SC_001" />
+		</classes>
+	</test>
+  <test name="TestsForFF">
+		<parameter name="BrowserName" value="WinFF"></parameter>
+		<classes>
+			<class name="instaHire.Tests.SC_001" />
+		</classes>
+	</test> 
+	
+</suite> 

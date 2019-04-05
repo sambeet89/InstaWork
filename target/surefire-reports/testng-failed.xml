@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Suite]" parallel="tests">
+  <parameter name="BrowserName" value="WinFF"/>
+  <test name="TestsForWinChrome(failed)" parallel="tests">
+    <parameter name="BrowserName" value="WinChrome"/>
+    <classes>
+      <class name="instaHire.Tests.SC_001">
+        <methods>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterMethod"/>
+          <include name="afterMethod"/>
+          <include name="afterMethod"/>
+          <include name="VerifySearchResultScreen_TC001"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeMethod"/>
+          <include name="beforeMethod"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- instaHire.Tests.SC_001 -->
+    </classes>
+  </test> <!-- TestsForWinChrome(failed) -->
+</suite> <!-- Failed suite [Suite] -->

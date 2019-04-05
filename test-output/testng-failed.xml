@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="TestsForWinIE(failed)">
+    <parameter name="BrowserName" value="WinIE"/>
+    <classes>
+      <class name="instaHire.Tests.SC_001">
+        <methods>
+          <include name="afterTest"/>
+          <include name="afterMethod"/>
+          <include name="VerifySearchResultScreen_TC001"/>
+          <include name="beforeMethod"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- instaHire.Tests.SC_001 -->
+    </classes>
+  </test> <!-- TestsForWinIE(failed) -->
+</suite> <!-- Failed suite [Suite] -->
